@@ -22,6 +22,13 @@ npx create-expo-app <nome do projeto>
     "react-native-screens": "~3.15.0"
   },
 
-4. Executar o aplicativo através do comando:
+4. Comandos da instalação das bibliotecas via node:
+npm install @react-navigation/native
+
+npx expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npm install @react-navigation/bottom-tabs
+
+5. Executar o aplicativo através do comando:
 npx expo start
 
